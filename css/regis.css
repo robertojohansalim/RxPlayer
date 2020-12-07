@@ -1,0 +1,128 @@
+/* BODY */
+.body-content{
+    width: 100%;
+    min-height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.content-margin{
+    padding-top: 10px;
+    width: 800px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: 50px; */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.register-title{
+    margin-top: 2rem;
+}
+
+hr{
+    width: 100%;
+}
+
+.body-subtitle{
+    text-align: center;
+    margin-bottom: auto;
+}
+
+/* Form */
+.error_label{
+    font-size: 0.7rem;
+    color: red;
+}
+
+.form-content{
+    text-align: left;
+    margin-top: 5px;
+    padding: 15px 50px;
+}
+
+.form-content>p{
+    margin-bottom: 5px;
+}
+
+.full-name{
+    display: flex;
+    flex-direction: row;
+}
+
+.name-input{
+    /* display: inline-block; */
+    width: 50%;
+    margin-right: 15px;
+}
+
+.text-input{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 25px;
+    width: 320px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 5px #000;
+    padding-left: 5px;
+}
+
+label>span{
+    margin-right: 15px;
+}
+
+.input-button-container{
+    text-align: center;    
+}
+
+.submit-input{
+    background: #FF6600;
+    color: black;
+}
+
+.reset-input{
+    background: #CD0402;
+    color: black;
+}
+
+select{
+    width: 150px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+span{
+    font-size: 0.8rem;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 800px){
+    .content-margin{
+        padding: 0;
+        /* padding-top: 10px; */
+        width: 100%;
+        margin: auto;
+        /* background-color: grey; */
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 0 0 0;
+    }
+
+    .form-content{
+        text-align: center;
+        margin: auto;
+        box-shadow: 0 0 0;
+    }
+
+    .text-input{
+        width: 80%;
+    }
+
+    .name-input{
+        margin: auto;
+        width: 100%;
+    }
+    .full-name{
+        display: flex;
+        flex-direction: column;
+    }
+}
